@@ -34,7 +34,7 @@ if ($result->num_rows > 0) {
         echo "<tr>";
         echo "<td><b>Item Name:</b> ".$row["name"]. "</td>";
         echo "<td><b>Price:</b> ". $row["price"]. "</td>";
-        echo "<td><a href=http://pegasus.cs.virginia.edu/~gc2bt/dataproject/buy-item-form.php?item_id=".$row["item_id"].">Buy Item</a> </td>";
+        echo "<td><a href=http://plato.cs.virginia.edu/~bs5ht/dataproject/buy-item-form.php?item_id=".$row["item_id"].">Buy Item</a> </td>";
         echo "</tr>";
         echo "<tr>";
         echo "<td>Description: <br>". $row["description"]."</td>";

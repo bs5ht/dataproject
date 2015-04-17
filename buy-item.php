@@ -28,6 +28,7 @@ $cvv = $_POST["cvv"];
 session_start();
 $buyer_id = $_SESSION["userinfo"]["user_id"];
 
+//check card info table to see if item exist
 //$sql = "INSERT INTO card_info
 //VALUES ('$buyer_id','$first_name', '$last_name', $card_number,'$address','$city','$state',$zipcode,$expiration_date,$cvv);";
 
